@@ -1,0 +1,33 @@
+.product-detail {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.product-detail img {
+  width: 100%;
+  max-width: 300px;
+  object-fit: contain;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.product-detail h2 {
+  margin-bottom: 0.5rem;
+}
+
+.product-detail button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-detail button:hover {
+  background: darkgreen;
+}

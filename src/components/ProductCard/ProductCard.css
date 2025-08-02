@@ -1,0 +1,29 @@
+.product-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  transition: box-shadow 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+  height: 160px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.product-card h4 {
+  font-size: 14px;
+  margin: 10px 0;
+  height: 40px;
+  overflow: hidden;
+}
+
+.product-card p {
+  font-weight: bold;
+  color: #0070f3;
+}
